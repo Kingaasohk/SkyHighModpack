@@ -1,5 +1,5 @@
 {
-  "maxPhysicsObjects": 10000,
+  "maxPhysicsObjects": 20000,
   "particleLifetimeVines": 4.0,
   "particleLifetimeItems": 3.0,
   "particleLifetimeParticles": 0.1,
