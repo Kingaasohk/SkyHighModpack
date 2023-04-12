@@ -1,0 +1,31 @@
+{
+  "bookGuiScale": 3,
+  "clickedVisualize": false,
+  "bookData": {
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:basics/garden_of_glass",
+        "botania:basics/lexicon",
+        "botania:basics/welcome",
+        "botania:basics/flowers",
+        "botania:basics/apothecary",
+        "botania:basics/pure_daisy",
+        "botania:basics/rune_altar",
+        "botania:mana/spreader",
+        "botania:basics/wand",
+        "botania:mana/pool",
+        "botania:mana/intro",
+        "botania:generating_flowers/endoflame"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:getting_started/spell_casting"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

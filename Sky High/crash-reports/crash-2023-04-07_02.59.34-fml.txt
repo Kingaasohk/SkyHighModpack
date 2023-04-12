@@ -1,0 +1,249 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 2023-04-07 02:59:34
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:55) ~[forge-1.19.2-43.2.8-universal.jar%23388!/:?] {re:classloading}
+	at net.minecraftforge.client.loading.ClientModLoader.completeModLoading(ClientModLoader.java:167) ~[forge-1.19.2-43.2.8-universal.jar%23388!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.lambda$new$2(Minecraft.java:585) ~[client-1.19.2-20220805.130853-srg.jar%23383!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:dynamiclightsreforged.mixins.json:MinecraftClientMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftMixin,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:bookshelf.common.mixins.json:client.AccessorMinecraft,pl:mixin:APP:balm.mixins.json:MinecraftMixin,pl:mixin:APP:carryon.mixins.json:MinecraftMixin,pl:mixin:APP:botania_xplat.mixins.json:client.MinecraftAccessor,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_Keybinds,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:itemphysic.mixins.json:MinecraftMixin,pl:mixin:APP:playerrevive.mixins.json:MinecraftAccessor,pl:mixin:APP:ars_nouveau.mixins.json:light.ClientMixin,pl:mixin:APP:rubidium_extras.mixins.json:FrameCounter.FpsAccessorMixin,pl:mixin:APP:physicsmod.mixins.json:MixinMinecraft,pl:mixin:APP:physicsmod.mixins.json:cloth.MixinMinecraft,pl:mixin:APP:physicsmod.mixins.json:fabricapi.MixinMinecraft,pl:mixin:APP:bettercombat.mixins.json:client.MinecraftClientAccessor,pl:mixin:APP:bettercombat.mixins.json:client.MinecraftClientInject,pl:mixin:APP:immersiveengineering.mixins.json:accessors.client.MinecraftAccess,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:quark.mixins.json:client.MinecraftMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:APP:ars_nouveau.mixins.json:camera.MinecraftMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.Util.m_137521_(Util.java:438) ~[client-1.19.2-20220805.130853-srg.jar%23383!/:?] {re:mixin,re:classloading,pl:mixin:APP:kubejs-common.mixins.json:UtilMixin,pl:mixin:A}
+	at net.minecraft.client.Minecraft.lambda$new$3(Minecraft.java:579) ~[client-1.19.2-20220805.130853-srg.jar%23383!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:dynamiclightsreforged.mixins.json:MinecraftClientMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftMixin,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:bookshelf.common.mixins.json:client.AccessorMinecraft,pl:mixin:APP:balm.mixins.json:MinecraftMixin,pl:mixin:APP:carryon.mixins.json:MinecraftMixin,pl:mixin:APP:botania_xplat.mixins.json:client.MinecraftAccessor,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_Keybinds,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:itemphysic.mixins.json:MinecraftMixin,pl:mixin:APP:playerrevive.mixins.json:MinecraftAccessor,pl:mixin:APP:ars_nouveau.mixins.json:light.ClientMixin,pl:mixin:APP:rubidium_extras.mixins.json:FrameCounter.FpsAccessorMixin,pl:mixin:APP:physicsmod.mixins.json:MixinMinecraft,pl:mixin:APP:physicsmod.mixins.json:cloth.MixinMinecraft,pl:mixin:APP:physicsmod.mixins.json:fabricapi.MixinMinecraft,pl:mixin:APP:bettercombat.mixins.json:client.MinecraftClientAccessor,pl:mixin:APP:bettercombat.mixins.json:client.MinecraftClientInject,pl:mixin:APP:immersiveengineering.mixins.json:accessors.client.MinecraftAccess,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:quark.mixins.json:client.MinecraftMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:APP:ars_nouveau.mixins.json:camera.MinecraftMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screens.LoadingOverlay.m_6305_(LoadingOverlay.java:135) ~[client-1.19.2-20220805.130853-srg.jar%23383!/:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:kubejs-common.mixins.json:LoadingOverlayMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.renderer.GameRenderer.m_109093_(GameRenderer.java:885) ~[client-1.19.2-20220805.130853-srg.jar%23383!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1115) ~[client-1.19.2-20220805.130853-srg.jar%23383!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:dynamiclightsreforged.mixins.json:MinecraftClientMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftMixin,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:bookshelf.common.mixins.json:client.AccessorMinecraft,pl:mixin:APP:balm.mixins.json:MinecraftMixin,pl:mixin:APP:carryon.mixins.json:MinecraftMixin,pl:mixin:APP:botania_xplat.mixins.json:client.MinecraftAccessor,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_Keybinds,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:itemphysic.mixins.json:MinecraftMixin,pl:mixin:APP:playerrevive.mixins.json:MinecraftAccessor,pl:mixin:APP:ars_nouveau.mixins.json:light.ClientMixin,pl:mixin:APP:rubidium_extras.mixins.json:FrameCounter.FpsAccessorMixin,pl:mixin:APP:physicsmod.mixins.json:MixinMinecraft,pl:mixin:APP:physicsmod.mixins.json:cloth.MixinMinecraft,pl:mixin:APP:physicsmod.mixins.json:fabricapi.MixinMinecraft,pl:mixin:APP:bettercombat.mixins.json:client.MinecraftClientAccessor,pl:mixin:APP:bettercombat.mixins.json:client.MinecraftClientInject,pl:mixin:APP:immersiveengineering.mixins.json:accessors.client.MinecraftAccess,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:quark.mixins.json:client.MinecraftMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:APP:ars_nouveau.mixins.json:camera.MinecraftMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:700) ~[client-1.19.2-20220805.130853-srg.jar%23383!/:?] {re:mixin,pl:accesstransformer:B,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:dynamiclightsreforged.mixins.json:MinecraftClientMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftMixin,pl:mixin:APP:rubidium.mixins.json:core.MixinMinecraftClient,pl:mixin:APP:bookshelf.common.mixins.json:client.AccessorMinecraft,pl:mixin:APP:balm.mixins.json:MinecraftMixin,pl:mixin:APP:carryon.mixins.json:MinecraftMixin,pl:mixin:APP:botania_xplat.mixins.json:client.MinecraftAccessor,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_Keybinds,pl:mixin:APP:mixins.oculus.json:MixinMinecraft_PipelineManagement,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:APP:itemphysic.mixins.json:MinecraftMixin,pl:mixin:APP:playerrevive.mixins.json:MinecraftAccessor,pl:mixin:APP:ars_nouveau.mixins.json:light.ClientMixin,pl:mixin:APP:rubidium_extras.mixins.json:FrameCounter.FpsAccessorMixin,pl:mixin:APP:physicsmod.mixins.json:MixinMinecraft,pl:mixin:APP:physicsmod.mixins.json:cloth.MixinMinecraft,pl:mixin:APP:physicsmod.mixins.json:fabricapi.MixinMinecraft,pl:mixin:APP:bettercombat.mixins.json:client.MinecraftClientAccessor,pl:mixin:APP:bettercombat.mixins.json:client.MinecraftClientInject,pl:mixin:APP:immersiveengineering.mixins.json:accessors.client.MinecraftAccess,pl:mixin:APP:flywheel.mixins.json:PausedPartialTickAccessor,pl:mixin:APP:quark.mixins.json:client.MinecraftMixin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor,pl:mixin:APP:create.mixins.json:WindowResizeMixin,pl:mixin:APP:ars_nouveau.mixins.json:camera.MinecraftMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.m_239872_(Main.java:212) ~[client-1.19.2-20220805.130853-srg.jar%23383!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[client-1.19.2-20220805.130853-srg.jar%23383!/:?] {re:classloading,re:mixin,pl:runtimedistcleaner:A,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27) ~[fmlloader-1.19.2-43.2.8.jar%2395!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2382!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at shadows.apotheosis.ench.EnchModule.reload(EnchModule.java:417) ~[Apotheosis-1.19.2-6.1.5.jar%23268!/:6.1.5] {re:classloading}
+-- MOD apotheosis --
+Details:
+	Mod File: /C:/Users/one/AppData/Roaming/.minecraft/versions/Sky High/mods/Apotheosis-1.19.2-6.1.5.jar
+	Failure message: Apotheosis (apotheosis) encountered an error during the common_setup event phase
+		java.lang.NullPointerException: Cannot invoke "shadows.apotheosis.ench.EnchantmentInfo.getMaxLevel()" because "info" is null
+	Mod Version: 6.1.5
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.NullPointerException: Cannot invoke "shadows.apotheosis.ench.EnchantmentInfo.getMaxLevel()" because "info" is null
+Stacktrace:
+	at shadows.apotheosis.ench.EnchModule.reload(EnchModule.java:417) ~[Apotheosis-1.19.2-6.1.5.jar%23268!/:6.1.5] {re:classloading}
+	at shadows.apotheosis.ench.EnchModule.init(EnchModule.java:136) ~[Apotheosis-1.19.2-6.1.5.jar%23268!/:6.1.5] {re:classloading}
+	at shadows.apotheosis.ench.__EnchModule_init_FMLCommonSetupEvent.invoke(.dynamic) ~[Apotheosis-1.19.2-6.1.5.jar%23268!/:6.1.5] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2379!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2379!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2379!/:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:107) ~[javafmllanguage-1.19.2-43.2.8.jar%23385!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:122) ~[fmlcore-1.19.2-43.2.8.jar%23384!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.3, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 1424708768 bytes (1358 MiB) / 3019898880 bytes (2880 MiB) up to 7180648448 bytes (6848 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 3600 6-Core Processor              
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: Radeon RX550/550 Series
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x67ff
+	Graphics card #0 versionInfo: DriverVersion=31.0.14043.7000
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.67
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.67
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 30646.75
+	Virtual memory used (MB): 23644.32
+	Swap memory total (MB): 14336.00
+	Swap memory used (MB): 821.12
+	JVM Flags: 9 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx6830M -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	Loaded Shaderpack: (off)
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.8.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.8.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.8.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.8.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.8.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		grappling_hook_mod-1.19.2-1.19.2-v13.jar          |Grappling Hook Mod            |grapplemod                    |1.19.2-v13          |SIDED_SETU|Manifest: NOSIGNATURE
+		dynamiclightsreforged-1.19.2_v1.4.0.jar           |Rubidium Dynamic Lights       |dynamiclightsreforged         |1.19.2_v1.4.0       |SIDED_SETU|Manifest: NOSIGNATURE
+		player-animation-lib-forge-1.0.2.jar              |Player Animator               |playeranimator                |1.0.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		majruszs-difficulty-1.19.2-1.7.3.jar              |Majrusz's Progressive Difficul|majruszsdifficulty            |1.7.3               |SIDED_SETU|Manifest: NOSIGNATURE
+		Forgiveness-1.19.2-1.3.3.jar                      |Forgiveness Mod               |forgivenessmod                |1.3.3               |SIDED_SETU|Manifest: NOSIGNATURE
+		paragon-forge-3.0.2-1.19x.jar                     |Paragon                       |paragon                       |3.0.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		sophisticatedcore-1.19.2-0.5.38.203.jar           |Sophisticated Core            |sophisticatedcore             |1.19.2-0.5.38.203   |SIDED_SETU|Manifest: NOSIGNATURE
+		rubidium-0.6.2a.jar                               |Rubidium                      |rubidium                      |0.6.2a              |SIDED_SETU|Manifest: NOSIGNATURE
+		Placebo-1.19.2-7.1.7.jar                          |Placebo                       |placebo                       |7.1.7               |SIDED_SETU|Manifest: NOSIGNATURE
+		citadel-2.1.2-1.19.jar                            |Citadel                       |citadel                       |2.1.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		alexsmobs-1.21.1.jar                              |Alex's Mobs                   |alexsmobs                     |1.21.1              |SIDED_SETU|Manifest: NOSIGNATURE
+		zombieawareness-1.19.2-1.12.3.jar                 |Zombie Awareness              |zombieawareness               |1.19.2-1.12.3       |SIDED_SETU|Manifest: NOSIGNATURE
+		MoreBuckets-1.19.2-3.0.1.jar                      |More Buckets                  |morebuckets                   |3.0.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		Bookshelf-Forge-1.19.2-16.2.18.jar                |Bookshelf                     |bookshelf                     |16.2.18             |SIDED_SETU|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		sophisticatedbackpacks-1.19.2-3.18.40.779.jar     |Sophisticated Backpacks       |sophisticatedbackpacks        |1.19.2-3.18.40.779  |SIDED_SETU|Manifest: NOSIGNATURE
+		create_dragon_lib-1.19.2-1.1.2.jar                |Create: Dragon Lib            |create_dragon_lib             |1.1.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		relics-1.19.2-0.4.2.3.jar                         |Relics                        |relics                        |0.4.2.3             |SIDED_SETU|Manifest: NOSIGNATURE
+		forgivingvoid-forge-1.19-7.0.0.jar                |Forgiving Void                |forgivingvoid                 |7.0.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		creeper_firework-1.19.2-1.2.0.jar                 |Creeper Firework              |creeper_firework              |1.2.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		Apotheosis-1.19.2-6.1.5.jar                       |Apotheosis                    |apotheosis                    |6.1.5               |ERROR     |Manifest: NOSIGNATURE
+		balm-forge-1.19.2-4.5.7.jar                       |Balm                          |balm                          |4.5.7               |SIDED_SETU|Manifest: NOSIGNATURE
+		carryon-forge-1.19.2-2.0.5.10.jar                 |Carry On                      |carryon                       |2.0.5.10            |SIDED_SETU|Manifest: NOSIGNATURE
+		JustEnoughResources-1.19.2-1.2.2.200.jar          |Just Enough Resources         |jeresources                   |1.2.2.200           |SIDED_SETU|Manifest: NOSIGNATURE
+		ShieldExpansion-1.19.2-1.1.6.jar                  |Shield Expansion              |shieldexp                     |1.1.6               |SIDED_SETU|Manifest: NOSIGNATURE
+		cloth-config-8.2.88-forge.jar                     |Cloth Config v8 API           |cloth_config                  |8.2.88              |SIDED_SETU|Manifest: NOSIGNATURE
+		soundphysics-forge-1.19.2-1.0.18.jar              |Sound Physics Remastered      |sound_physics_remastered      |1.19.2-1.0.18       |SIDED_SETU|Manifest: NOSIGNATURE
+		dummmmmmy-1.19.2-1.7.1.jar                        |MmmMmmMmmmmm                  |dummmmmmy                     |1.19.2-1.7.1        |SIDED_SETU|Manifest: NOSIGNATURE
+		twilightforest-1.19.2-4.2.1518-universal.jar      |The Twilight Forest           |twilightforest                |4.2.1518            |SIDED_SETU|Manifest: NOSIGNATURE
+		alltheores-2.0.2-1.19.2-43.1.3.jar                |AllTheOres                    |alltheores                    |2.0.2-1.19.2-43.1.3 |SIDED_SETU|Manifest: NOSIGNATURE
+		out_of_sight-1.19.2-1.0.2.jar                     |Out of Sight                  |out_of_sight                  |1.19.2-1.0.2        |SIDED_SETU|Manifest: NOSIGNATURE
+		FarmersDelight-1.19-1.2.0.jar                     |Farmer's Delight              |farmersdelight                |1.19-1.2.0          |SIDED_SETU|Manifest: NOSIGNATURE
+		DrippedOut-1.19.2-2.0.0.jar                       |DrippedOut                    |drippedout                    |2.0.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		ColaMixinConfig-v1.0.2.jar                        |ColaConfig                    |caffeineconfig                |1.0.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		mcw-trapdoors-1.0.9-mc1.19.2forge.jar             |Macaw's Trapdoors             |mcwtrpdoors                   |1.0.9               |SIDED_SETU|Manifest: NOSIGNATURE
+		Botania-1.19.2-438-FORGE.jar                      |Botania                       |botania                       |1.19.2-438-FORGE    |SIDED_SETU|Manifest: NOSIGNATURE
+		gardenofglass-1.11.jar                            |Garden of Glass               |gardenofglass                 |1.11                |SIDED_SETU|Manifest: NOSIGNATURE
+		resourcefulconfig-forge-1.19.2-1.0.20.jar         |Resourcefulconfig             |resourcefulconfig             |1.0.20              |SIDED_SETU|Manifest: NOSIGNATURE
+		TextruesRubidiumOptions-1.0.4-mc1.19.2.jar        |TexTrue's Rubidium Options    |reeses_sodium_options         |1.0.4-mc1.19.2      |SIDED_SETU|Manifest: NOSIGNATURE
+		curios-forge-1.19.2-5.1.3.0.jar                   |Curios API                    |curios                        |1.19.2-5.1.3.0      |SIDED_SETU|Manifest: NOSIGNATURE
+		Patchouli-1.19.2-77.jar                           |Patchouli                     |patchouli                     |1.19.2-77           |SIDED_SETU|Manifest: NOSIGNATURE
+		oculus-mc1.19.2-1.2.8a.jar                        |Oculus                        |oculus                        |1.2.8a              |SIDED_SETU|Manifest: NOSIGNATURE
+		ftb-ultimine-forge-1902.4.0-build.77.jar          |FTB Ultimine                  |ftbultimine                   |1902.4.0-build.77   |SIDED_SETU|Manifest: NOSIGNATURE
+		deeperdarker-forge-1.1.6-forge.jar                |Deeper and Darker             |deeperdarker                  |1.1.6               |SIDED_SETU|Manifest: NOSIGNATURE
+		architectury-6.5.69-forge.jar                     |Architectury                  |architectury                  |6.5.69              |SIDED_SETU|Manifest: NOSIGNATURE
+		squatgrow-3.0.0-build.33+mc1.19.2.jar             |Squat Grow                    |squatgrow                     |3.0.0-build.33+mc1.1|SIDED_SETU|Manifest: NOSIGNATURE
+		ItemPhysic_FORGE_v1.6.6_mc1.19.2.jar              |ItemPhysic                    |itemphysic                    |1.6.6               |SIDED_SETU|Manifest: NOSIGNATURE
+		DetailArmorBar-2.6.4+1.19.2-forge.jar             |Detail Armor Bar              |detailab                      |2.6.4+1.19.2-forge  |SIDED_SETU|Manifest: NOSIGNATURE
+		CodeChickenLib-1.19.2-4.3.1.481-universal.jar     |CodeChicken Lib               |codechickenlib                |4.3.1.481           |SIDED_SETU|Manifest: 31:e6:db:63:47:4a:6e:e0:0a:2c:11:d1:76:db:4e:82:ff:56:2d:29:93:d2:e5:02:bd:d3:bd:9d:27:47:a5:71
+		PlayerRevive_FORGE_v2.0.14_mc1.19.2.jar           |PlayerRevive                  |playerrevive                  |2.0.14              |SIDED_SETU|Manifest: NOSIGNATURE
+		geckolib-forge-1.19-3.1.40.jar                    |GeckoLib                      |geckolib3                     |3.1.40              |SIDED_SETU|Manifest: NOSIGNATURE
+		majruszs-accessories-1.19.2-1.1.4.jar             |Majrusz's Accessories         |majruszsaccessories           |1.1.4               |SIDED_SETU|Manifest: NOSIGNATURE
+		rhino-forge-1902.2.2-build.264.jar                |Rhino                         |rhino                         |1902.2.2-build.264  |SIDED_SETU|Manifest: NOSIGNATURE
+		forgeautofish-5.0.2-1.19.jar                      |AutoFish for Forge            |forgeautofish                 |5.0.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		Cucumber-1.19.2-6.0.6.jar                         |Cucumber Library              |cucumber                      |6.0.6               |SIDED_SETU|Manifest: NOSIGNATURE
+		ftb-library-forge-1902.3.16-build.193.jar         |FTB Library                   |ftblibrary                    |1902.3.16-build.193 |SIDED_SETU|Manifest: NOSIGNATURE
+		sophisticatedstorage-1.19.2-0.6.16.276.jar        |Sophisticated Storage         |sophisticatedstorage          |1.19.2-0.6.16.276   |SIDED_SETU|Manifest: NOSIGNATURE
+		jei-1.19.2-forge-11.6.0.1013.jar                  |Just Enough Items             |jei                           |11.6.0.1013         |SIDED_SETU|Manifest: NOSIGNATURE
+		kubejs-forge-1902.6.0-build.142.jar               |KubeJS                        |kubejs                        |1902.6.0-build.142  |SIDED_SETU|Manifest: NOSIGNATURE
+		mcskyblock-3.1.8.jar                              |MC Skyblock                   |mcskyblock                    |3.1.8               |SIDED_SETU|Manifest: NOSIGNATURE
+		goblintraders-1.8.0-1.19.2.jar                    |Goblin Traders                |goblintraders                 |1.8.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		FastSuite-1.19.2-4.0.0.jar                        |Fast Suite                    |fastsuite                     |4.0.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		artifacts-1.19.2-5.0.2.jar                        |Artifacts                     |artifacts                     |1.19.2-5.0.2        |SIDED_SETU|Manifest: NOSIGNATURE
+		SereneSeasons-1.19.2-8.1.0.23.jar                 |Serene Seasons                |sereneseasons                 |0.0NONE             |SIDED_SETU|Manifest: NOSIGNATURE
+		LibX-1.19.2-4.2.8.jar                             |LibX                          |libx                          |1.19.2-4.2.8        |SIDED_SETU|Manifest: NOSIGNATURE
+		catalogue-1.7.0-1.19.2.jar                        |Catalogue                     |catalogue                     |1.7.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		Book+Fishing+1.0.0+-+1.19.2.jar                   |Book Fishing                  |book_fishing                  |1.0.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		ars_nouveau-1.19.2-3.12.3.jar                     |Ars Nouveau                   |ars_nouveau                   |3.12.3              |SIDED_SETU|Manifest: NOSIGNATURE
+		Iron+Fishing+Rods+1.0.0+-+1.19.2.jar              |Iron Fishing Rods             |iron_fishing_rods             |1.0.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		rubidium_extras-1.19.2_v1.3.2.jar                 |Rubidium Extras               |rubidium_extras               |1.19.2_v1.3.2       |SIDED_SETU|Manifest: NOSIGNATURE
+		forge-1.19.2-43.2.8-universal.jar                 |Forge                         |forge                         |43.2.8              |SIDED_SETU|Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		silent-gear-1.19.2-3.2.5.jar                      |Silent Gear                   |silentgear                    |3.2.5               |SIDED_SETU|Manifest: NOSIGNATURE
+		VillainousFishAI-forge-1.19.2-1.1.jar             |Villainous Fish AI            |villainousfishai              |1.1                 |SIDED_SETU|Manifest: NOSIGNATURE
+		tl_skin_cape_forge_1.19_1.19.2-1.27.jar           |TLSkinCape                    |tlskincape                    |1.27                |SIDED_SETU|Manifest: 19:f5:ce:44:81:0c:e4:22:05:5e:73:c5:a8:cd:de:f3:c8:cf:a9:b3:01:70:40:a0:ee:2d:50:7a:1c:3d:1c:8a
+		Better+Fishing+Rods+1.0.0+-+1.19.2.jar            |Better Fishing Rods           |better_fishing_rods           |1.0.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		client-1.19.2-20220805.130853-srg.jar             |Minecraft                     |minecraft                     |1.19.2              |SIDED_SETU|Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		cofh_core-1.19.2-10.2.1.40.jar                    |CoFH Core                     |cofh_core                     |10.2.1              |SIDED_SETU|Manifest: 75:0b:cc:9b:64:2e:9b:c4:41:d1:95:00:71:ee:87:1a:b3:5e:4b:da:8e:e8:39:00:fd:5d:e5:9c:40:42:33:09
+		thermal_core-1.19.2-10.2.0.5.jar                  |Thermal Series                |thermal                       |10.2.0.5            |SIDED_SETU|Manifest: 75:0b:cc:9b:64:2e:9b:c4:41:d1:95:00:71:ee:87:1a:b3:5e:4b:da:8e:e8:39:00:fd:5d:e5:9c:40:42:33:09
+		thermal_integration-1.19.2-10.2.0.17.jar          |Thermal Integration           |thermal_integration           |10.2.0.17           |SIDED_SETU|Manifest: 75:0b:cc:9b:64:2e:9b:c4:41:d1:95:00:71:ee:87:1a:b3:5e:4b:da:8e:e8:39:00:fd:5d:e5:9c:40:42:33:09
+		thermal_innovation-1.19.2-10.2.0.18.jar           |Thermal Innovation            |thermal_innovation            |10.2.0.18           |SIDED_SETU|Manifest: 75:0b:cc:9b:64:2e:9b:c4:41:d1:95:00:71:ee:87:1a:b3:5e:4b:da:8e:e8:39:00:fd:5d:e5:9c:40:42:33:09
+		thermal_foundation-1.19.2-10.2.0.47.jar           |Thermal Foundation            |thermal_foundation            |10.2.0.47           |SIDED_SETU|Manifest: NOSIGNATURE
+		thermal_expansion-1.19.2-10.2.0.21.jar            |Thermal Expansion             |thermal_expansion             |10.2.0.21           |SIDED_SETU|Manifest: 75:0b:cc:9b:64:2e:9b:c4:41:d1:95:00:71:ee:87:1a:b3:5e:4b:da:8e:e8:39:00:fd:5d:e5:9c:40:42:33:09
+		thermal_locomotion-1.19.2-10.2.0.14.jar           |Thermal Locomotion            |thermal_locomotion            |10.2.0.14           |SIDED_SETU|Manifest: 75:0b:cc:9b:64:2e:9b:c4:41:d1:95:00:71:ee:87:1a:b3:5e:4b:da:8e:e8:39:00:fd:5d:e5:9c:40:42:33:09
+		thermal_dynamics-1.19.2-10.2.1b.14.jar            |Thermal Dynamics              |thermal_dynamics              |10.2.1b             |SIDED_SETU|Manifest: 75:0b:cc:9b:64:2e:9b:c4:41:d1:95:00:71:ee:87:1a:b3:5e:4b:da:8e:e8:39:00:fd:5d:e5:9c:40:42:33:09
+		EnchantmentDescriptions-Forge-1.19.2-13.0.14.jar  |EnchantmentDescriptions       |enchdesc                      |13.0.14             |SIDED_SETU|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		theoneprobe-1.19-6.2.2.jar                        |The One Probe                 |theoneprobe                   |1.19-6.2.2          |SIDED_SETU|Manifest: NOSIGNATURE
+		physics-mod-2.11.11-mc-1.19.2-forge.jar           |Physics Mod                   |physicsmod                    |2.11.11             |SIDED_SETU|Manifest: NOSIGNATURE
+		moonlight-1.19.2-2.2.27-forge.jar                 |Moonlight Library             |moonlight                     |1.19.2-2.2.27       |SIDED_SETU|Manifest: NOSIGNATURE
+		bettercombat-forge-1.6.2+1.19.jar                 |Better Combat                 |bettercombat                  |1.6.2+1.19          |SIDED_SETU|Manifest: NOSIGNATURE
+		commonality-1.19.2-4.2.1.jar                      |Commonality                   |commonality                   |4.2.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		ImmersiveEngineering-1.19.2-9.2.0-162.jar         |Immersive Engineering         |immersiveengineering          |1.19.2-9.2.0-162    |SIDED_SETU|Manifest: 44:39:94:cf:1d:8c:be:3c:7f:a9:ee:f4:1e:63:a5:ac:61:f9:c2:87:d5:5b:d9:d6:8c:b5:3e:96:5d:8e:3f:b7
+		silent-lib-1.19.2-7.0.3.jar                       |Silent Lib                    |silentlib                     |7.0.3               |SIDED_SETU|Manifest: NOSIGNATURE
+		majrusz-library-1.19.2-3.3.0.jar                  |Majrusz Library               |mlib                          |3.3.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		CreativeCore_FORGE_v2.9.2_mc1.19.2.jar            |CreativeCore                  |creativecore                  |2.9.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		Create+Deco+Casing+2.0.0+1.19.jar                 |Create Deco Casing            |create_deco_casing            |2.0.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		spectrelib-forge-0.11.0+1.19.jar                  |SpectreLib                    |spectrelib                    |0.11.0+1.19         |SIDED_SETU|Manifest: NOSIGNATURE
+		flywheel-forge-1.19.2-0.6.8.a.jar                 |Flywheel                      |flywheel                      |0.6.8.a             |SIDED_SETU|Manifest: NOSIGNATURE
+		alloyed-1.19.2-v1.5.jar                           |Create: Alloyed               |alloyed                       |1.19.2              |SIDED_SETU|Manifest: NOSIGNATURE
+		create-1.19.2-0.5.0.i.jar                         |Create                        |create                        |0.5.0.i             |SIDED_SETU|Manifest: NOSIGNATURE
+		createsifter-1.19.2-1.4.0.i.jar                   |Create Sifter                 |createsifter                  |1.19.2-1.4.0.i      |SIDED_SETU|Manifest: NOSIGNATURE
+		FarmersRespite-1.19-2.0.jar                       |Farmer's Respite              |farmersrespite                |1.19-2.0            |SIDED_SETU|Manifest: NOSIGNATURE
+		create_central_kitchen-1.19.2-for-create-0.5.0.i-1|Create: Central Kitchen       |create_central_kitchen        |1.2.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		mutil-1.19.2-5.1.0.jar                            |mutil                         |mutil                         |5.1.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		rubidium-extra-0.4.17+mc1.19.2-build.71.jar       |Rubidium Extra                |sodiumextra                   |0.4.17+mc1.19.2-buil|SIDED_SETU|Manifest: NOSIGNATURE
+		gravestone-1.19.2-1.0.1.jar                       |Gravestone Mod                |gravestone                    |1.19.2-1.0.1        |SIDED_SETU|Manifest: NOSIGNATURE
+		thermal_cultivation-1.19.2-10.2.0.17.jar          |Thermal Cultivation           |thermal_cultivation           |10.2.0.17           |SIDED_SETU|Manifest: 75:0b:cc:9b:64:2e:9b:c4:41:d1:95:00:71:ee:87:1a:b3:5e:4b:da:8e:e8:39:00:fd:5d:e5:9c:40:42:33:09
+		polymorph-forge-0.46.1+1.19.2.jar                 |Polymorph                     |polymorph                     |0.46.1+1.19.2       |SIDED_SETU|Manifest: NOSIGNATURE
+		JustEnoughProfessions-forge-1.19.2-2.0.2.jar      |Just Enough Professions (JEP) |justenoughprofessions         |2.0.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		AutoRegLib-1.8.2-55.jar                           |AutoRegLib                    |autoreglib                    |1.8.2-55            |SIDED_SETU|Manifest: NOSIGNATURE
+		Quark-3.4-395.jar                                 |Quark                         |quark                         |3.4-395             |SIDED_SETU|Manifest: NOSIGNATURE
+		ParCool-1.19.2-3.0.0.2-R.jar                      |ParCool!                      |parcool                       |1.19.2-3.0.0.2-R    |SIDED_SETU|Manifest: NOSIGNATURE
+		nocube's_create_compact_exp_1.0.1_forge_1.19.2.jar|Create Compact Exp (by NoCube)|nocubescreateexp              |1.0.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		bettershears3-1.19.2-3.1.6_RELEASE.jar            |Better Shears 3               |bettershears3                 |1.19.2-3.1.6_RELEASE|SIDED_SETU|Manifest: NOSIGNATURE
+		coroutil-1.19.2-1.2.37.jar                        |CoroUtil                      |coroutil                      |1.19.2-1.2.37       |SIDED_SETU|Manifest: NOSIGNATURE
+		creeperoverhaul-2.0.9-forge.jar                   |Creeper Overhaul              |creeperoverhaul               |2.0.9               |SIDED_SETU|Manifest: NOSIGNATURE
+		appleskin-forge-mc1.19-2.4.2.jar                  |AppleSkin                     |appleskin                     |2.4.2+mc1.19        |SIDED_SETU|Manifest: NOSIGNATURE
+		apexcore-1.19.2-7.3.1.jar                         |ApexCore                      |apexcore                      |7.3.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		fantasyfurniture-1.19.2-6.7.0.jar                 |Fantasy's Furniture           |fantasyfurniture              |6.7.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		moredragoneggs-3.2.jar                            |More Dragon Eggs              |moredragoneggs                |3.2                 |SIDED_SETU|Manifest: NOSIGNATURE
+		Enhanced_Celestials-forge-1.19.2-2.1.0.5.jar      |Enhanced Celestials           |enhancedcelestials            |2.1.0.5             |SIDED_SETU|Manifest: NOSIGNATURE
+		CorgiLib-forge-1.19.2-1.0.0.32.jar                |CorgiLib                      |corgilib                      |1.0.0.32            |SIDED_SETU|Manifest: NOSIGNATURE
+		Aquaculture-1.19.2-2.4.8.jar                      |Aquaculture 2                 |aquaculture                   |1.19.2-2.4.8        |SIDED_SETU|Manifest: NOSIGNATURE
+		majruszs-enchantments-1.19.2-1.8.1.jar            |Majrusz's Enchantments        |majruszsenchantments          |1.8.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		ExNihiloSequentia-1.19.2-4.1.0.55-beta.jar        |Ex Nihilo: Sequentia          |exnihilosequentia             |1.19.2-4.1.0.55-beta|SIDED_SETU|Manifest: NOSIGNATURE
+		expandability-7.0.0.jar                           |ExpandAbility                 |expandability                 |7.0.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		create_enchantment_industry-1.19.2-for-create-0.5.|Create Enchantment Industry   |create_enchantment_industry   |1.1.15              |SIDED_SETU|Manifest: NOSIGNATURE
+		createaddition-1.19.2-20230315b.jar               |Create Crafts & Additions     |createaddition                |1.19.2-20230315b    |SIDED_SETU|Manifest: NOSIGNATURE
+	Crash Report UUID: 4118ee20-fc62-46f7-9e7b-c09a721e2524
+	FML: 43.2
+	Forge: net.minecraftforge:43.2.8
+	Flywheel Backend: GL33 Instanced Arrays
