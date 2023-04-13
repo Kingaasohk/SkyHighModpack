@@ -1,0 +1,201 @@
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 2023-04-12 16:30:29
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:55) ~[forge-1.19.2-43.2.8-universal.jar%23150!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:39) ~[forge-1.19.2-43.2.8-universal.jar%23150!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23145!/:?] {re:classloading}
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.2.8.jar%2367!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Stacktrace:
+	at net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:58) ~[forge-1.19.2-43.2.8-universal.jar%23150!/:?] {re:classloading}
+-- MOD botania --
+Details:
+	Mod File: /C:/Users/one/Documents/1.19.2 forge server/mods/Botania-1.19.2-438-FORGE.jar
+	Failure message: Mod botania requires patchouli 1.19.2-76 or above
+		Currently, patchouli is not installed
+	Mod Version: 1.19.2-438-FORGE
+	Mod Issue URL: https://github.com/Vazkii/Botania/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+Stacktrace:
+	at net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:58) ~[forge-1.19.2-43.2.8-universal.jar%23150!/:?] {re:classloading}
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?] {re:mixin}
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:56) ~[forge-1.19.2-43.2.8-universal.jar%23150!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:39) ~[forge-1.19.2-43.2.8-universal.jar%23150!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23145!/:?] {re:classloading}
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.2.8.jar%2367!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?] {}
+
+
+-- MOD apotheosis --
+Details:
+	Mod File: /C:/Users/one/Documents/1.19.2 forge server/mods/Apotheosis-1.19.2-6.1.5.jar
+	Failure message: Mod apotheosis requires placebo 7.1.7 or above
+		Currently, placebo is not installed
+	Mod Version: 6.1.5
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD ars_nouveau --
+Details:
+	Mod File: /C:/Users/one/Documents/1.19.2 forge server/mods/ars_nouveau-1.19.2-3.12.3.jar
+	Failure message: Mod ars_nouveau requires curios 1.19-5.0.7.1 or above
+		Currently, curios is not installed
+	Mod Version: 3.12.3
+	Mod Issue URL: https://github.com/baileyholl/Ars-Nouveau
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD alloyed --
+Details:
+	Mod File: /C:/Users/one/Documents/1.19.2 forge server/mods/alloyed-1.19.2-v1.5.jar
+	Failure message: Mod alloyed requires create 0.5.0.e or above
+		Currently, create is not installed
+	Mod Version: 1.19.2
+	Mod Issue URL: https://github.com/MythrilBagels/Create-Alloyed/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD bettercombat --
+Details:
+	Mod File: /C:/Users/one/Documents/1.19.2 forge server/mods/bettercombat-forge-1.6.2+1.19.jar
+	Failure message: Mod bettercombat requires playeranimator 0.9.9 or above
+		Currently, playeranimator is not installed
+	Mod Version: 1.6.2+1.19
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD botania --
+Details:
+	Mod File: /C:/Users/one/Documents/1.19.2 forge server/mods/Botania-1.19.2-438-FORGE.jar
+	Failure message: Mod botania requires curios 1.19.2-5.1.1.0 or above
+		Currently, curios is not installed
+	Mod Version: 1.19.2-438-FORGE
+	Mod Issue URL: https://github.com/Vazkii/Botania/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD artifacts --
+Details:
+	Mod File: /C:/Users/one/Documents/1.19.2 forge server/mods/artifacts-1.19.2-5.0.2.jar
+	Failure message: Mod artifacts requires curios 1.19.2-5.0.6.3 or above
+		Currently, curios is not installed
+	Mod Version: 1.19.2-5.0.2
+	Mod Issue URL: https://github.com/ochotonida/artifacts/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD bettercombat --
+Details:
+	Mod File: /C:/Users/one/Documents/1.19.2 forge server/mods/bettercombat-forge-1.6.2+1.19.jar
+	Failure message: Mod bettercombat requires cloth_config 8.0.0 or above
+		Currently, cloth_config is not installed
+	Mod Version: 1.6.2+1.19
+	Mod Issue URL: NOT PROVIDED
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD angelring --
+Details:
+	Mod File: /C:/Users/one/Documents/1.19.2 forge server/mods/AngelRing2-1.19.2-2.1.5.jar
+	Failure message: Mod angelring requires curios 1.19.2-5.1.1.0 or above
+		Currently, curios is not installed
+	Mod Version: 2.1.5
+	Mod Issue URL: https://github.com/DenisMasterHerobrine/AngelRing/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD ars_nouveau --
+Details:
+	Mod File: /C:/Users/one/Documents/1.19.2 forge server/mods/ars_nouveau-1.19.2-3.12.3.jar
+	Failure message: Mod ars_nouveau requires patchouli 1.19-77 or above
+		Currently, patchouli is not installed
+	Mod Version: 3.12.3
+	Mod Issue URL: https://github.com/baileyholl/Ars-Nouveau
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- MOD alexsmobs --
+Details:
+	Mod File: /C:/Users/one/Documents/1.19.2 forge server/mods/alexsmobs-1.21.1.jar
+	Failure message: Mod alexsmobs requires citadel 2.1.1 or above
+		Currently, citadel is not installed
+	Mod Version: 1.21.1
+	Mod Issue URL: https://github.com/Alex-the-666/AlexsMobs/issues
+	Exception message: MISSING EXCEPTION MESSAGE
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 19.0.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 345879616 bytes (329 MiB) / 574619648 bytes (548 MiB) up to 4276092928 bytes (4078 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 3600 6-Core Processor              
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: Radeon RX550/550 Series
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x67ff
+	Graphics card #0 versionInfo: DriverVersion=31.0.14043.7000
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.67
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.67
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 35517.55
+	Virtual memory used (MB): 29050.91
+	Swap memory total (MB): 19206.81
+	Swap memory used (MB): 3640.26
+	JVM Flags: 0 total; 
+	ModLauncher: 10.0.8+10.0.8+main.0ef7e830
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.3.jar eventbus PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.8.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.8.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.8.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.8.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.19.2-43.2.8.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.8.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.8.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		server-1.19.2-20220805.130853-srg.jar             |Minecraft                     |minecraft                     |1.19.2              |NONE      |Manifest: NOSIGNATURE
+		forge-1.19.2-43.2.8-universal.jar                 |Forge                         |forge                         |43.2.8              |NONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90

@@ -1,0 +1,156 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 12, 2023, 7:50:12 PM
+
+#forge:crude_oil
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- #the_bumblezone:sugar_water (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- enlightened_end:ooze_fluid (from enlightend-1.19.2-v5.0.0.1.jar)
+- enlightened_end:flowing_ooze_fluid (from enlightend-1.19.2-v5.0.0.1.jar)
+- exnihilosequentia:sea_water (from ExNihiloSequentia-1.19.2-4.1.0.55-beta.jar)
+- exnihilosequentia:sea_water_flow (from ExNihiloSequentia-1.19.2-4.1.0.55-beta.jar)
+- createaddition:flowing_seed_oil (from createaddition-1.19.2-20230315b.jar)
+- createaddition:seed_oil (from createaddition-1.19.2-20230315b.jar)
+
+#forge:biodiesel
+- immersiveengineering:biodiesel (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#forge:milk
+- minecraft:milk? (from forge-1.19.2-43.2.8-universal.jar)
+- minecraft:flowing_milk? (from forge-1.19.2-43.2.8-universal.jar)
+
+#forge:herbicide
+- immersiveengineering:herbicide (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#forge:biofuel
+- createaddition:flowing_bioethanol (from createaddition-1.19.2-20230315b.jar)
+- createaddition:bioethanol (from createaddition-1.19.2-20230315b.jar)
+
+#forge:visual/honey
+- #the_bumblezone:honey (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- #the_bumblezone:royal_jelly (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- productivebees:honey? (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- productivebees:flowing_honey? (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#the_bumblezone:special_honey_like
+- #the_bumblezone:honey (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- #the_bumblezone:royal_jelly (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#forge:molten_steel
+- createbigcannons:flowing_molten_steel (from createbigcannons-1.19.2-beta-0.5.b.jar)
+- createbigcannons:molten_steel (from createbigcannons-1.19.2-beta-0.5.b.jar)
+
+#forge:plantoil
+- immersiveengineering:plantoil (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+- createaddition:flowing_seed_oil (from createaddition-1.19.2-20230315b.jar)
+- createaddition:seed_oil (from createaddition-1.19.2-20230315b.jar)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+
+#the_bumblezone:sugar_water
+- the_bumblezone:sugar_water_still (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:sugar_water_flowing (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#forge:gaseous
+- immersiveengineering:acetaldehyde (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#create_enchantment_industry:printer_input
+- create_enchantment_industry:flowing_experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.15.jar)
+- create_enchantment_industry:experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.15.jar)
+- #forge:ink (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.15.jar)
+
+#forge:ethanol
+- immersiveengineering:ethanol (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#create:bottomless/deny
+
+#forge:chocolate
+- create:flowing_chocolate (from create-1.19.2-0.5.0.i.jar)
+- create:chocolate (from create-1.19.2-0.5.0.i.jar)
+
+#forge:redstone_acid
+- immersiveengineering:redstone_acid (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#create:bottomless/allow
+- minecraft:water (from create-1.19.2-0.5.0.i.jar)
+- minecraft:lava (from create-1.19.2-0.5.0.i.jar)
+
+#forge:concrete
+- immersiveengineering:concrete (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#the_bumblezone:convertible_to_sugar_water
+- minecraft:water (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- minecraft:flowing_water (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- #the_bumblezone:sugar_water (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#forge:potion
+- cofh_core:potion (from cofh_core-1.19.2-10.2.1.40.jar)
+- immersiveengineering:potion (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#forge:experience
+- sophisticatedcore:xp_still (from sophisticatedcore-1.19.2-0.5.38.203.jar)
+- cofh_core:experience (from cofh_core-1.19.2-10.2.1.40.jar)
+
+#forge:molten_bronze
+- createbigcannons:flowing_molten_bronze (from createbigcannons-1.19.2-beta-0.5.b.jar)
+- createbigcannons:molten_bronze (from createbigcannons-1.19.2-beta-0.5.b.jar)
+
+#forge:tea
+- create:flowing_tea (from create-1.19.2-0.5.0.i.jar)
+- create:tea (from create-1.19.2-0.5.0.i.jar)
+
+#ae2:blacklisted/annihilation_plane
+
+#forge:molten_cast_iron
+- createbigcannons:flowing_molten_cast_iron (from createbigcannons-1.19.2-beta-0.5.b.jar)
+- createbigcannons:molten_cast_iron (from createbigcannons-1.19.2-beta-0.5.b.jar)
+
+#the_bumblezone:honey
+- the_bumblezone:honey_fluid_still (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:honey_fluid_flowing (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#immersiveengineering:drill_fuel
+- #forge:biodiesel (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#the_bumblezone:royal_jelly
+- the_bumblezone:royal_jelly_fluid_still (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:royal_jelly_fluid_flowing (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#forge:visual/water
+- minecraft:water (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- minecraft:flowing_water (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- #the_bumblezone:sugar_water (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#create_enchantment_industry:blaze_enchanter_input
+- create_enchantment_industry:flowing_experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.15.jar)
+- create_enchantment_industry:experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.15.jar)
+- create_enchantment_industry:flowing_hyper_experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.15.jar)
+- create_enchantment_industry:hyper_experience (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.15.jar)
+
+#forge:molten_lead
+- oreganized:molten_lead (from Oreganized+1.19.2-2.0.2.jar)
+
+#forge:honey
+- #the_bumblezone:honey (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- #the_bumblezone:royal_jelly (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- inspirations:honey? (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- inspirations:flowing_honey? (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- cofh_core:honey (from cofh_core-1.19.2-10.2.1.40.jar)
+- create:flowing_honey (from create-1.19.2-0.5.0.i.jar)
+- create:honey (from create-1.19.2-0.5.0.i.jar)
+
+#forge:creosote
+- immersiveengineering:creosote (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#forge:phenolic_resin
+- immersiveengineering:phenolic_resin (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#forge:acetaldehyde
+- immersiveengineering:acetaldehyde (from ImmersiveEngineering-1.19.2-9.2.0-162.jar)
+
+#forge:ink
+- create_enchantment_industry:flowing_ink (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.15.jar)
+- create_enchantment_industry:ink (from create_enchantment_industry-1.19.2-for-create-0.5.0.i-1.1.15.jar)

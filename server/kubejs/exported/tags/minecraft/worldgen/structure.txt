@@ -1,0 +1,136 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 12, 2023, 7:50:11 PM
+
+#the_bumblezone:no_dungeons
+- the_bumblezone:cell_maze (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:hive_temple (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#the_bumblezone:no_caves
+- the_bumblezone:throne_pillar (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:hanging_garden (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:candle_parkour (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:battle_cubes (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:honey_fountain (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:stinger_spear_shrine (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:pirate_ship (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:dance_floor (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:cannon_range (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:honitel (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#the_bumblezone:wrath_causing
+- the_bumblezone:cell_maze (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#minecraft:all_structures
+- #minecraft:village (from deeperdarker-forge-1.1.6-forge.jar)
+- #minecraft:ruined_portal (from deeperdarker-forge-1.1.6-forge.jar)
+- #minecraft:shipwreck (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:mansion (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:end_city (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:fortress (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:bastion_remnant (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:desert_pyramid (from deeperdarker-forge-1.1.6-forge.jar)
+- minecraft:buried_treasure (from deeperdarker-forge-1.1.6-forge.jar)
+
+#minecraft:cats_spawn_in
+- minecraft:swamp_hut (from Default)
+
+#the_bumblezone:no_honeycomb_holes_piecewise
+- the_bumblezone:throne_pillar (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:hanging_garden (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#quark:soul_bead_target
+- minecraft:fortress (from Quark-3.4-395.jar)
+- betterfortresses:fortress? (from Quark-3.4-395.jar)
+
+#the_bumblezone:honey_compass/default_locating
+- the_bumblezone:cell_maze (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#minecraft:shipwreck
+- minecraft:shipwreck (from Default)
+- minecraft:shipwreck_beached (from Default)
+
+#minecraft:on_ocean_explorer_maps
+- minecraft:monument (from Default)
+
+#minecraft:on_treasure_maps
+- minecraft:buried_treasure (from Default)
+
+#minecraft:ruined_portal
+- minecraft:ruined_portal_desert (from Default)
+- minecraft:ruined_portal_jungle (from Default)
+- minecraft:ruined_portal_mountain (from Default)
+- minecraft:ruined_portal_nether (from Default)
+- minecraft:ruined_portal_ocean (from Default)
+- minecraft:ruined_portal (from Default)
+- minecraft:ruined_portal_swamp (from Default)
+
+#the_bumblezone:bee_queen_mining_fatigue
+- the_bumblezone:throne_pillar (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#minecraft:village
+- minecraft:village_plains (from Default)
+- minecraft:village_desert (from Default)
+- minecraft:village_savanna (from Default)
+- minecraft:village_snowy (from Default)
+- minecraft:village_taiga (from Default)
+
+#byg:on_ancient_sequoia_explorer_maps
+- byg:ancient_sequoia (from Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.1.1.jar)
+
+#minecraft:ocean_ruin
+- minecraft:ocean_ruin_cold (from Default)
+- minecraft:ocean_ruin_warm (from Default)
+
+#the_bumblezone:honey_compass/throne_locating
+- the_bumblezone:throne_pillar (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#minecraft:mineshaft
+- minecraft:mineshaft (from Default)
+- minecraft:mineshaft_mesa (from Default)
+
+#minecraft:on_woodland_explorer_maps
+- minecraft:mansion (from Default)
+
+#the_bumblezone:no_honeycomb_holes
+- the_bumblezone:candle_parkour (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:battle_cubes (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:honey_fountain (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:stinger_spear_shrine (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:pirate_ship (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:dance_floor (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:cannon_range (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:honitel (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#minecraft:cats_spawn_as_black
+- minecraft:swamp_hut (from Default)
+
+#the_bumblezone:explorer_map/pirate_locating
+- the_bumblezone:cell_maze (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:hive_temple (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:battle_cubes (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:overgrown_flower (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:stinger_spear_shrine (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#the_bumblezone:honey_compass/misc_locating
+- the_bumblezone:hanging_garden (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:battle_cubes (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:overgrown_flower (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:honitel (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#the_bumblezone:no_giant_honey_crystals
+- the_bumblezone:battle_cubes (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:bee_house (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:ice_monolith (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:pirate_ship (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:dance_floor (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:cannon_range (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+- the_bumblezone:honitel (from the_bumblezone_forge-6.7.7+1.19.2.jar)
+
+#minecraft:eye_of_ender_located
+- minecraft:stronghold (from Default)
+
+#alexsmobs:spawns_underminers
+- #minecraft:mineshaft (from alexsmobs-1.21.1.jar)
+
+#minecraft:dolphin_located
+- #minecraft:ocean_ruin (from Default)
+- #minecraft:shipwreck (from Default)
